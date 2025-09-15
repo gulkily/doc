@@ -47,10 +47,11 @@
 ---
 
 ### Step 4: Implementation
-**Process**: Create feature branch, implement stages in order, test each stage, commit with descriptive messages
+**Process**: Work on the feature branch, which you should have created with Step 1. Implement stages in order, test each stage, commit with descriptive messages
 
 **Critical Requirements**:
-- **MUST create feature branch first** (e.g., `feature/admin-rights-management`)
+- **MUST create feature branch immediately at start of Step 1** (e.g., `feature/admin-rights-management`)
+- **All plan files must be created on the feature branch**
 - Complete stages atomically (<2 hours each)
 - Complete each completed stage to the branch
 - Test before proceeding to next stage
@@ -77,7 +78,7 @@ Each step MUST result in a separate file in `doc/plan/`:
 - Stay in current step, don't jump ahead
 - **MUST wait for explicit user approval before proceeding to next step** - never auto-advance through steps
 - ALWAYS create separate files for each step
-- ALWAYS create feature branch before Step 4
+- ALWAYS create feature branch immediately at start of Step 1 and put all plan files on it
 - Flag scope creep, return to appropriate step
 - **AVOID database schema changes when possible** - prefer using existing models and fields
 
